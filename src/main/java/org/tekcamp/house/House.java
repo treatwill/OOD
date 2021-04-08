@@ -1,6 +1,6 @@
 package org.tekcamp.house;
 
-public class House {
+public interface House {
 //	Mop mop;
 //	Broom broom;
 //	Hammer hammer;
@@ -14,19 +14,19 @@ public class House {
 //	Table table;
 //	Sofa sofa;
 
-	void cook(){};
-	void clean(){};
-	void eat(){};
-	void code(){};
-	void checkEmail(){};
-	void work(){};
-	void study(){};
-	void sleep(){};
-	void socialize(){};
-	void exercise(){};
-	void entertain(){};
+	default void cook(){ };
+	default void clean(){};
+	default void eat(){};
+	default void code(){};
+	default void checkEmail(){};
+	default void work(){};
+	default void study(){};
+	default void sleep(){};
+	default void socialize(){};
+	default void exercise(){};
+	default void entertain(){};
 
-	public static void main(String[] args) {
+	//public static void main(String[] args) {
 		//Restructure this code so it adheres to the Single Responsibility Principle (SRP) and the Interface Segregation Principle.  Consider a 'Responsibility' to be a specific activity.  You may need to create additional classes in order to increase class cohesion.  Fill out some basic implementation for the methods defined in this class"
-	}
+	//}
 }
